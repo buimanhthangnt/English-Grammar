@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Học tập">
+        <menu>
+            <item
+                android:id="@+id/today"
+                android:icon="@mipmap/ic_today"
+                android:title="Hôm nay"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/lesson"
+                android:icon="@mipmap/ic_lesson"
+                android:title="Bài học ngữ pháp"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/practice"
+                android:icon="@mipmap/ic_practice"
+                android:title="Luyện tập tổng hợp"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/tip"
+                android:icon="@mipmap/ic_tip"
+                android:title="Mẹo nhỏ"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/entertainment"
+                android:icon="@mipmap/ic_entertainment"
+                android:title="Giải trí"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/favorite"
+                android:icon="@mipmap/ic_heart"
+                android:title="Mục yêu thích"
+                android:checkable="true"/>
+        </menu>
+    </item>
+
+    <item android:title="Ứng dụng">
+        <menu>
+            <item
+                android:id="@+id/feedback"
+                android:icon="@mipmap/ic_feedback"
+                android:title="Ý kiến đánh giá"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/setting"
+                android:icon="@mipmap/ic_setting"
+                android:title="Cài đặt"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/about"
+                android:icon="@mipmap/ic_about"
+                android:title="Thông tin về ứng dụng"
+                android:checkable="true"/>
+        </menu>
+    </item>
+
+</menu>
